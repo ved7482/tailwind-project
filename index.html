@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="assets/css/fonts.css">
+    <!-- <link rel="stylesheet" href="assets/css/fonts.css"> -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
-<body class="w-full py-6">
+<body class="w-full">
     
-    <header class="w-full">
+    <header class="w-full pt-6">
         <nav class="px-[3rem] flex justify-between items-center">
             <h1 class="text-xl font-medium tracking-tighter">Portfolio</h1>
             <div class="links flex gap-10">
@@ -62,15 +62,35 @@
 
             <div class="content w-full gap-20 flex py-6">
                 <div class="col flex flex-col gap-20 w-1/3">
-                    <div class="w-100 h-145 bg-black opacity-10"></div>
-                    <div class="w-100 h-115 bg-black opacity-10"></div>
+                    <div class="w-100 h-145 overflow-hidden bg-[#E5E5E5] drop-shadow-[0_20px_20px_rgba(0,0,0,0.25)]">
+                        <a target="_blank" href="https://ved7482.github.io/ryban/">
+                            <img class="object-contain duration-300 ease-linear hover:scale-[1.2]" src="assets/img/ryban-mobile-view.png" alt="">
+                        </a>
+                    </div>
+                    <div class="w-100 h-120 bg-[#E5E5E5] overflow-hidden drop-shadow-[0_20px_20px_rgba(0,0,0,0.25)]">
+                        <a target="_blank" href="https://github.com/ved7482/Direct-Donation-Platform">
+                            <img class="w-full h-full object-cover object-left duration-300 ease-linear hover:scale-[1.2]" src="assets/img/aptos-certificate.png" alt="">
+                        </a>
+                    </div>
                 </div>
                 <div class="col flex flex-col gap-20 pt-30 w-1/3">
-                    <div class="w-100 h-145 bg-black opacity-10"></div>
-                    <div class="w-100 h-100 bg-black opacity-10"></div>
+                    <div class="w-100 h-145 bg-[#E5E5E5] overflow-hidden drop-shadow-[0_20px_20px_rgba(0,0,0,0.25)]">
+                        <a target="_blank" href="https://ved7482.github.io/tinder/">
+                            <img class="object-contain duration-300 ease-linear hover:scale-[1.2]" src="assets/img/tinder.png" alt="">
+                        </a>
+                    </div>
+                    <div class="w-100 h-100 bg-[#E5E5E5] overflow-hidden drop-shadow-[0_20px_20px_rgba(0,0,0,0.25)]">
+                        <a target="_blank" href="https://ved7482.github.io/magnetic-effect/">
+                            <img class="object-contain duration-300 ease-linear hover:scale-[1.2]" src="assets/img/magnetic-effect.png" alt="">
+                        </a>
+                    </div>
                 </div>
                 <div class="col flex flex-col gap-20 pt-20 w-1/3">
-                    <div class="w-100 h-100 bg-black opacity-10"></div>
+                    <div class="w-100 h-100 bg-[#E5E5E5] overflow-hidden drop-shadow-[0_20px_20px_rgba(0,0,0,0.25)]">
+                        <a target="_blank" href="https://ved7482.github.io/animation/">
+                            <img class="w-full h-full object-cover duration-300 ease-linear hover:scale-[1.2]" src="assets/img/nissan-animation.png" alt="">
+                        </a>
+                    </div>
                     <div class="w-100 h-145 bg-black opacity-10"></div>
                 </div>
             </div>
@@ -85,15 +105,29 @@
 
             <div class="content w-full gap-20 flex py-6">
                 <div class="col flex flex-col gap-20 w-1/3">
-                    <div class="w-100 h-120 bg-black opacity-10"></div>
-                    <div class="w-100 h-145 bg-black opacity-10"></div>
+                    <div class="w-fit h-120 bg-[#E5E5E5] overflow-hidden drop-shadow-[0_20px_20px_rgba(0,0,0,0.25)]">
+                        <a target="_blank" href="https://ved7482.github.io/social-media-card/">
+                            <img class="object-cover duration-300 ease-linear hover:scale-[1.2]" src="assets/img/projects/social-media-card.png" alt="">
+                        </a>
+                    </div>
+                    <div class="w-100 h-145 bg-black opacity-10">
+                        
+                    </div>
                 </div>
                 <div class="col flex flex-col gap-20 pt-30 w-1/3">
-                    <div class="w-100 h-100 bg-black opacity-10"></div>
+                    <div class="w-100 h-100 bg-[#E5E5E5] overflow-hidden drop-shadow-[0_20px_20px_rgba(0,0,0,0.25)]">
+                        <a target="_blank" href="https://ved7482.github.io/dentytech/">
+                            <img class="h-full w-full object-cover duration-300 ease-linear hover:scale-[1.2]" src="assets/img/projects/dentytech.png" alt="">
+                        </a>
+                    </div>
                     <div class="w-100 h-145 bg-black opacity-10"></div>
                 </div>
                 <div class="col flex flex-col gap-20 pt-20 w-1/3">
-                    <div class="w-100 h-145 bg-black opacity-10"></div>
+                    <div class="w-fit h-145 bg-[#E5E5E5] overflow-hidden drop-shadow-[0_20px_20px_rgba(0,0,0,0.25)]">
+                        <a target="_blank" href="https://ved7482.github.io/bent-template/">
+                            <img class="object-contain duration-300 ease-linear hover:scale-[1.2]" src="assets/img/projects/bent-template.png" alt="">
+                        </a>  
+                    </div>
                     <div class="w-100 h-100 bg-black opacity-10"></div>
                 </div>
             </div>
@@ -238,20 +272,24 @@
             </div>
         </section>
 
-        <div class="overlay-btns ">
-            <button class="btn "><a href="#">Contact</a></button>
-        </div>
+        <!-- <div class="overlay-btns">
+            <a href="#contact" class="font-semibold no-underline text-black">
+                <button class="w-[15vw] px-3 py-2 border-[0.7rem] rounded-md bg-[#FDFBF5] text-black shadow-md cursor-pointer">
+                    Contact
+                </button>
+            </a>           
+        </div> -->
         
     </main>
 
-    <footer class="w-full flex items-center justify-between px-[3rem]">
-        <h3 class="tracking-tight"><span class="font-bold">D</span> S Nikhade</h3>
+    <footer class="w-full flex items-center justify-between px-[3rem] py-[1.8rem] bg-[#272727]">
+        <h3 class="tracking-tight text-white"><span class="font-bold">D</span> S Nikhade</h3>
         <div class="social-media flex items-center gap-4">
-            <a href="https://www.linkedin.com/in/divyanshu-nikhade-a887b5331/" class="footer__icon"><i class='bx bxl-linkedin bg-black text-white p-[0.4rem] text-2xl rounded-3xl'></i></a>
-            <a href="https://www.instagram.com/divyanshu_nikhade/" class="footer__icon"><i class='bx bxl-instagram bg-black text-white p-[0.4rem] text-2xl rounded-3xl' ></i></a>
-            <a href="https://github.com/ved7482" class="footer__icon"><i class='bx bxl-github bg-black text-white p-[0.4rem] text-2xl rounded-3xl' ></i></a>
+            <a href="https://www.linkedin.com/in/divyanshu-nikhade-a887b5331/" class="footer__icon"><i class='bx bxl-linkedin bg-white text-black p-[0.4rem] text-2xl rounded-3xl'></i></a>
+            <a href="https://www.instagram.com/divyanshu_nikhade/" class="footer__icon"><i class='bx bxl-instagram bg-white text-black p-[0.4rem] text-2xl rounded-3xl' ></i></a>
+            <a href="https://github.com/ved7482" class="footer__icon"><i class='bx bxl-github bg-white text-black p-[0.4rem] text-2xl rounded-3xl' ></i></a>
         </div>
-        <h4 class="date-and-time font-medium">02 Mar. 2025 [ 05:20 AM ]</h4>
+        <h4 class="date-and-time font-medium text-white">02 Mar. 2025 [ 05:20 AM ]</h4>
     </footer>
 
     <script src="assets/js/script.js"></script>
